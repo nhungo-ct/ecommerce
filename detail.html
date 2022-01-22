@@ -5,16 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>    
+        .tab a::before{
+            content: url(img/vectorright.svg);
+        }
+        .tab a:first-child::before {
+            content: none;
+        }
+        .grey-list li::marker{
+            color: #BDBDBD;
+        }
+        .red-list li::marker{
+            color: #EB5757;
+        }
+    </style>
 </head>
 <body>
     <nav class="navigation">
         <img src="img/cover1.png" alt="Cover">
-        <a href="#">Nordic Coder</a>
+        <a href="#" class="uppercase">Nordic Coder</a>
         <a href="#">New</a>
         <a href="listing.html">Shop</a>
       </nav>
+    <div class="thumpnail-active">
+      <img src="img/Rectangle27.jpg">
+    </div>
     <form>
+    <section>
+        <div class="tab"> 
+            <a href="#">Home</a>
+            <a href="#">Jackets</a>
+            <a href="#">Julia</a>
+        </div>
+    </section>
+    <section>
+        <div>
+            
+            <p>Share</p>
+            
+        </div>
+    </section>
+    <section>
+        <div>
+            <div>
+                <p class="uppercase">content & care</p>
+                <ul class="grey-list">
+                    <li>Nylon, Metallic, Spandex</li>
+                    <li>Imported</li>
+                    <li> Dry Flat</li>
+                </ul>
+            </div>
+            <div>
+                <p class="uppercase">details & fit</p>
+                <ul class="red-list">
+                    <li>Length: 32"</li>
+                    <li>Measured in size Small</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div>
+                <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
+              </div>
+
+              <div>
+                <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
+              </div>
+
+              <div>
+                <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
+              </div>
+
+              <div>
+                <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
+              </div>
+        </div>
+    </section>
     <input type="number" name ="quantity" min="1" max="5">
     </form>
+    <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
 </body>
 </html>

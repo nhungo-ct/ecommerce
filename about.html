@@ -5,48 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
-        .number{
-            background-color: #F2F2F2;
-            color: #000000;
+        .number p:last-child{
+            font-size: 14px;
         }
+        .number p:nth-child(2){
+            font-size: 48px;
+            font-weight: bold;
+        }
+            .statement p:last-child {
+                color: #828282;
+            }
+            .statement p:first-child{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .reason p:first-child{
+                color:#27AE60;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .reason p:last-child{
+                font-size: 16px;
+                color: #828282;
+            }
+            .why{
+                font-size: 48px;
+                font-weight: bold;
+            }
+            .security li::before {
+                content: url(img/tick.png);
+            }
+            .arrow2::after {
+                content: url(img/arrow2.svg)
+            }
     </style>
 </head>
 
 <body>
     <nav class="navigation">
-        <img src="img/cover1.png" alt="Cover">
-        <a href="#">Nordic Coder</a>
+        <img src="img/aboutnordic.jpg">
+        <a href="index.html" class="uppercase">Nordic Coder</a>
         <a href="#">New</a>
         <a href="listing.html">Shop</a>
+        <p style="letter-spacing: 0.2em;">This is Nordic</p>
     </nav>
+    
+    <section>
+        <div class="visionmission">
+            <div class="statement">
+                <p>Vision</p>
+                <p>No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences.
+                </p>
+                <p><i>Anna Wintour</i></p>
+            </div>
+
+            <div class="statement">
+                <p>Mission</p>
+                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+                </p>
+                <p><i>Coco Chanel</i></p>
+            </div>
+        </div>
+    </section>
+    <section>
+    <div>
     <div class="number">
         <p><b>Some numbers about us</b></p>
-        <div class="number1">
+        <div class="number">
         <p>Established</p>
-        <p><b>2018</b></p>
+        <p>2018</p>
         <p>in New York</p>
         </div>
 
-        <div class="number2">
+        <div class="number">
         <p>Employees</p>
-        <p><b>120 +</b></p>
+        <p>120 +</p>
         <p>and counting</p>
         </div>
 
-        <div class="number3">
+        <div class="number">
             <p>Brands</p>
-            <p><b>2500 +</b></p>
+            <p>2500 +</p>
             <p>and growing</p>
         </div>
 
-        <div class="number4">
+        <div class="number">
                 <p>Orders</p>
-                <p><b>500 +</b></p>
+                <p>500 +</p>
                 <p>each day</p>
         </div>
-        
     </div>
+    </section>
+    <section>
+        <div>
+            <p>Creating a different shopping experience since 2018</p>
+            <p>Want to get in touch with us? A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which.</p>
+            <a href="contact.html" class="arrow2">Contact us</a>
+        </div>
+    </section>
 
+    <div class="why">Why shop with Nordic</div>
+    <section>
+        <div>
+            <div class="reason">
+            <p>Free International Shipping</p>
+            <p>On all orders over $100.00</p>
+            </div>
+            <div class="reason">
+                <p>45 Days Return</p>
+                <p>Money back guarantee</p>
+                </div>
+                <div class="reason">
+                    <p>4Secure Checkout</p>
+                    <p>100% secured checkout process</p>
+                    </div>
+        </div>
+    
+    </section>
+    <div>
+    <p><span style="color: #828282">Security system</span></p>
+    <ul class="security">
+        <li>PCI security standards</li>
+        <li>Protect card owner</li>
+        <li>Encrypted network</li>
+    </ul>
+    </h1>
+    </div>
+    <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
 </body>
+
 </html>

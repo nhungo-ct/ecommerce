@@ -1,0 +1,62 @@
+
+
+.privacy{
+    background-color: #000000;
+    opacity: 80%;
+    color: white;
+}
+.footer{
+    background-color: #F2F2F2;
+    list-style-type: none;
+}
+.arrow::after {
+    content: url(../img/arrow1.svg);
+}
+::selection{
+    color: white;
+    background-color: black;
+}
+.shopname{
+    text-align: right;
+    font-size: 64px;
+    font-weight: bold;
+}
+.arrow{
+    vertical-align: bottom ;
+}
+.nordiccoder{
+    text-decoration: underline;
+    color: #9B51E0;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.letter-spacing{
+    letter-spacing: 0.5em;
+}
+
+body{
+    font-size: 100%;
+}
+
+.thumpnail-active{
+    border: 2px solid black;
+}
+.sort{
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.border{
+    border-radius: 50%;
+}
+.visionmission{
+    margin: auto;
+    width: 1000px;
+}
+
+.newcustomer{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
