@@ -13,60 +13,126 @@
     </style>
 </head>
 <body>
-    <nav class="navigation">
-        <a href="index.html" class="uppercase">Nordic Coder</a>
+    <section class="flex-container flex-container-index navigation-top">
+        <a href="index.html"  class="uppercase">Nordic Coder</a>
+        <div>
         <a href="#">New</a>
         <a href="listing.html">Shop</a>
-      </nav>
+        <a href="#">Sale</a>
+        <a href="login.html">Login</a>
+        <a class="cart" href="#">
+            <img src="img/Vector.png" alt="Cart">
+            <p>No item yet</p>
+        </a>
+        </div>
+       </section>
 
     <section>
-        <div class="comtact=info">
+        <div class="contact-info">
     <h1>Get in Touch</h1>
     <p>Contact us for any further questions, possible business partnerships.</p>
         </div>
-        <div class="flex-container">
-            <div>
+        <section class="flex-container">
+            <div class="contact">
+    <img src="img/chat.png">
     <p>Let's stalk</p>
-    <p>Phone: <a href="tel:+84 668 668 60">+84 668 668 60</a></p>
-    <p>Fax: 123.4567.88991</p>
+    <p>Phone: <a href="tel:+84 668 668 60">+84 668 668 60</a><br>
+    Fax: 123.4567.88991</p>
     <a href="hello@nordiccoder.com">hello@nordiccoder.com</a>
             </div>
-            <div>
+        <div class="contact">
+    <img src="img/store.png">
     <p>Visity our Store</p>
-    <p>Elizabeth Street 123</p>
-    <p>50050 Sydney</p>
+    <p>Elizabeth Street 123<br>
+    50050 Sydney</p>
     <a href="">See the map</a>
             </div>
-            <div>
+            <div class="contact">
+    <img src="img/social.png">
     <p>Start your career</p>
     <p>Commodo ad sint hashtag,
-        voluptate consequat vero veniam.</p>
-    <p>50050 Sydney</p>
+        voluptate consequat vero veniam.<br>
+        50050 Sydney</p>
     <a href="">career@nordiccoder.com</a>
             </div>
-    </div>
-
-                  <div class="contat=info"
-                  
-    <p>Get in contact with us by filling out our contact form.</p>
+        </section>
+    </section>
+    <section class="flex-container">     
+    <p>Get in contact with<br>
+        us by filling out our<br>
+        contact form.</p>
+    <div>
     <form>
-        <label for="fname">Name</label><br>
-        <input type="text" id="" name="fname"><br><br>
-        <label for="lname">Email</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="help">How can we help?</label><br>
-        <textarea id="help" name="help" rows="4" cols="50"></textarea><br>    
-        <input type="submit" value="Send">
+        <label for="fname"></label><br>
+        <input type="text" id="" name="fname" placeholder="Name"><br><br>
+        <label for="lname"></label><br>
+        <input type="text" id="lname" name="lname" placeholder="Email"><br><br>
+        <label for="help"></label><br>
+        <textarea id="help" name="help" rows="4" cols="50" placeholder="How can we help?"></textarea><br>    
+        <input type="submit" value="Send" class="submit">
     </form> 
-    <div>
-        <p>How can we help you?</p>
-        <p>Please have a look at our frequently asked questions.</p>
-        <p>What payment methods do you accept?</p>
+            </div>
+            </section>
+            <section class="flex-container">
+                <div>
+        <h3>How can we help you?</h3>
+        <p>Please have a look at our<br> 
+            frequently asked questions.</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>Can I cancel my order?</li>
+                        <li>What payment methods do you accept</li>
+                        <li>Is my payment information secure?</li>
+                        <li>When will I receive my refund?</li>
+                    </ul>
     </div>
-    <div>
-        <p>Can I cancel my order?</p>
+    </section>
 
-    </div>
-    <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
+    <footer class="footer">
+        <section class="flex-container">
+            <div>
+            <p><span style="color: #828282">About us</span></p>
+            <ul>
+                <li>Our company</li>
+                <li>Our history</li>
+                <li>Jobs</li>
+                <li>Journal</li>
+                <li>Store Locations</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">How can we help</span></p>
+            <ul>
+                <li>FAQs</li>
+                <li>Order tracking</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Returns & Refunds</li>
+                <li>Support</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">Shop</span></p>
+            <ul>
+                <li>Tops</li>
+                <li>Accessories</li>
+                <li>Terms & Conditions</li>
+                <li>Jeans</li>
+                <li>Jackets</li>
+                <li>Shoes</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">Security system</span></p>
+            <ul>
+                <li class="tick"> PCI security standards</li>
+                <li class="tick"> Protect card owner</li>
+                <li class="tick"> Encrypted network</li>
+            </ul>
+            </div>
+            </section>
+            <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
+        </footer>
 </body>
 </html>

@@ -8,21 +8,76 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navigation">
-        <img src="img/cover1.png" alt="Cover">
-        <a href="index.html" class="uppercase">Nordic Coder</a>
+    <section class="flex-container flex-container-index navigation-top">
+        <a href="index.html"  class="uppercase">Nordic Coder</a>
+        <div>
         <a href="#">New</a>
         <a href="listing.html">Shop</a>
-      </nav>
-    <h1>Create account</h1>
-    <form>
-        <label for="fname">Email address*</label><br>
-        <input type="text" id="" name="fname"><br><br>
-        <input type="password"="" name="pwd"><br><br>
+        <a href="#">Sale</a>
+        <a href="login.html">Login</a>
+        <a class="cart" href="#">
+            <img src="img/Vector.png" alt="Cart">
+            <p>No item yet</p>
+        </a>
+        </div>
+       </section>
 
-        <input type="password" id="lname" name="pwd"><br>
-        <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</p>
-        <input type="submit" value="Register">
+    <div>
+    <h1>Create account</h1>
+    <a href="login.html" style="text-decoration: underline;" class="account">Login     </a>
+    <form>
+        <input type="text" id="" name="fname" placeholder="Email address*"><br>
+        <input type="text" id="lname" name="lname" placeholder="Password*"><br>
+        <p>Your personal data will be used to support your experience<br>
+            throughout this website, to manage access to your account,<br>
+            and for other purposes described in our <a href ="#" style="text-decoration: underline;">privacy policy</a>.</p>
+        <input type="submit" value="Register" class="submit">
     </form> 
+
+    <footer class="footer">
+        <section class="flex-container">
+            <div>
+            <p><span style="color: #828282">About us</span></p>
+            <ul>
+                <li>Our company</li>
+                <li>Our history</li>
+                <li>Jobs</li>
+                <li>Journal</li>
+                <li>Store Locations</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">How can we help</span></p>
+            <ul>
+                <li>FAQs</li>
+                <li>Order tracking</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Returns & Refunds</li>
+                <li>Support</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">Shop</span></p>
+            <ul>
+                <li>Tops</li>
+                <li>Accessories</li>
+                <li>Terms & Conditions</li>
+                <li>Jeans</li>
+                <li>Jackets</li>
+                <li>Shoes</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">Security system</span></p>
+            <ul>
+                <li class="tick"> PCI security standards</li>
+                <li class="tick"> Protect card owner</li>
+                <li class="tick"> Encrypted network</li>
+            </ul>
+            </div>
+            </section>
+            <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
+        </footer>
 </body>
 </html>

@@ -8,23 +8,74 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navigation">
-        <img src="img/cover1.png" alt="Cover">
-        <a href="listing.html" class="uppercase">Nordic Coder</a>
+    <section class="flex-container flex-container-index navigation-top">
+        <a href="index.html"  class="uppercase">Nordic Coder</a>
+        <div>
         <a href="#">New</a>
         <a href="listing.html">Shop</a>
-      </nav>
+        <a href="#">Sale</a>
+        <a href="login.html">Login</a>
+        <a class="cart" href="#">
+            <img src="img/Vector.png" alt="Cart">
+            <p>No item yet</p>
+        </a>
+        </div>
+       </section>
+
     <h1>Login</h1>
+    <a href="register.html" class="account">Create account</a>
     <form>
-        <label for="fname">Email address*</label><br>
-        <input type="text" id="" name="fname"><br>
-        <label for="lname">Password*</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <input type="text" id="" name="fname" placeholder="Email address*"><br>
+        <input type="text" id="lname" name="lname" placeholder="Password*"><br>
         <input type="checkbox" id="remember" name="remember" value="remember">
         <label for="remember">Remember me</label><br>
-        <input type="submit" value="Login">
+        <a href="#" style="text-decoration: underline;">Lost password</a>
+        <input type="submit" value="Login" class="submit">
     </form> 
-    <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
-
+    <footer class="footer">
+        <section class="flex-container">
+            <div>
+            <p><span style="color: #828282">About us</span></p>
+            <ul>
+                <li>Our company</li>
+                <li>Our history</li>
+                <li>Jobs</li>
+                <li>Journal</li>
+                <li>Store Locations</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">How can we help</span></p>
+            <ul>
+                <li>FAQs</li>
+                <li>Order tracking</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Returns & Refunds</li>
+                <li>Support</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">Shop</span></p>
+            <ul>
+                <li>Tops</li>
+                <li>Accessories</li>
+                <li>Terms & Conditions</li>
+                <li>Jeans</li>
+                <li>Jackets</li>
+                <li>Shoes</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">Security system</span></p>
+            <ul>
+                <li class="tick"> PCI security standards</li>
+                <li class="tick"> Protect card owner</li>
+                <li class="tick"> Encrypted network</li>
+            </ul>
+            </div>
+            </section>
+            <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
+        </footer>
 </body>
 </html>

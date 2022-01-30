@@ -10,8 +10,7 @@
 <body>
 
     <header class="home-banner">
-    <nav class="navigation">
-        <section class="flex-container flex-container-index">
+        <section class="flex-container flex-container-index navigation-top">
         <a href="index.html"  class="uppercase">Nordic Coder</a>
         <div>
         <a href="#">New</a>
@@ -23,8 +22,8 @@
             <p>No item yet</p>
         </a>
         </div>
-        </section>   
-        <p class="uppercase letter-spacing  justify-content-end">reven</p>
+       </section>
+        <p class="uppercase letter-spacing">reven</p>
 
         <section class="flex-container flex-container-index">
             <div>
@@ -54,12 +53,14 @@
     </section>
 
     <div class="flex-container">
-    <p class="flex-container-text justify-content-end mystery">Mystery</p>
-    <p class="darling">Darling</p>
-    <p class="flex-container-text justify-content-start beyond">Beyond</p>
-    <p class="flex-container-text reven justify-content-end">Reven</p>
-    <p class="flex-container-text lefeminin justify-content-end">Le Feminin</p>
-    <p class="flex-container-text justify-content-end naturalism">Naturalism</p>
+    <p class="flex-container-text justify-content-end mystery uppercase">Mystery</p>
+    <p class="darling justify-content-center uppercase">Darling</p>
+    <p class="flex-container-text justify-content-start beyond uppercase">Beyond</p>
+    </div>
+    <div class="flex-container">
+    <p class="flex-container-text reven justify-content-end uppercase">Reven</p>
+    <p class="flex-container-text lefeminin justify-content-end uppercase">Le Feminin</p>
+    <p class="flex-container-text justify-content-end naturalism uppercase">Naturalism</p>
     </div>
     <section class="index-note flex-container-index">
     <div>
@@ -74,17 +75,18 @@
 
     <section>
         <div class="newcustomer">
-    <h1>New customer?</h1>
+            <div class="promo">
+    <p>New customer?</p>
     <p>Receive instantly voucher valued at</p>
     <p style="font-size: 2.25em;font-weight: bold;">50&euro;</p>
     <p>and other attractive deals and latest trends</p>
-        </div>
-
+    </div>
     <form>
         <label for="fmail">Email address</label><br>
         <input input type="text" id="fmail" name="fmail"><br>
-        <input type="submit" value="Register">
+        <input type="submit" value="Register" class="submit">
     </form>
+    </div>
     </section>
 
     <section>
@@ -98,47 +100,54 @@
     <img src="img/instagram5.jpg">
     </div>
     </section>
+    </main>
 
 
-    <div class="footer">
-        <p><span style="color: #828282">About us</span></p>
-        <ul>
-            <li>Our company</li>
-            <li>Our history</li>
-            <li>Jobs</li>
-            <li>Journal</li>
-            <li>Store Locations</li>
-        </ul>
-        <p><span style="color: #828282">How can we help</span></p>
-        <ul>
-            <li>FAQs</li>
-            <li>Order tracking</li>
-            <li>Terms & Conditions</li>
-            <li>Privacy Policy</li>
-            <li>Returns & Refunds</li>
-            <li>Support</li>
-        </ul>
-        <p><span style="color: #828282">Shop</span></p>
-        <ul>
-            <li>Tops</li>
-            <li>Accessories</li>
-            <li>Terms & Conditions</li>
-            <li>Jeans</li>
-            <li>Jackets</li>
-            <li>Shoes</li>
-        </ul>
-        <p><span style="color: #828282">Security system</span></p>
-        <ul>
-            <li><img src="img/greentick.svg"> PCI security standards</li>
-            <li><img src="img/greentick.svg"> Protect card owner</li>
-            <li><img src="img/greentick.svg"> Encrypted network</li>
-        </ul>
-        
-    </main> 
-
-    <footer>
-        <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
-    </div>
+    <footer class="footer">
+        <section class="flex-container">
+            <div>
+            <p><span style="color: #828282">About us</span></p>
+            <ul>
+                <li>Our company</li>
+                <li>Our history</li>
+                <li>Jobs</li>
+                <li>Journal</li>
+                <li>Store Locations</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">How can we help</span></p>
+            <ul>
+                <li>FAQs</li>
+                <li>Order tracking</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Returns & Refunds</li>
+                <li>Support</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">Shop</span></p>
+            <ul>
+                <li>Tops</li>
+                <li>Accessories</li>
+                <li>Terms & Conditions</li>
+                <li>Jeans</li>
+                <li>Jackets</li>
+                <li>Shoes</li>
+            </ul>
+            </div>
+            <div>
+            <p><span style="color: #828282">Security system</span></p>
+            <ul>
+                <li class="tick"> PCI security standards</li>
+                <li class="tick"> Protect card owner</li>
+                <li class="tick"> Encrypted network</li>
+            </ul>
+            </div>
+            </section>
+            <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
+        </footer>
 
     <div class="privacy">
         <p>This is a standard cookie notice which you can easily adapt or disable as you like in the admin. We use cookies to ensure that we give you the best experience on our website.</p>
@@ -146,7 +155,6 @@
         <button type="button">Accept <img src="img/tick.png"></button>
     </div>
 
-    </footer>
     
 </body>
 </html>

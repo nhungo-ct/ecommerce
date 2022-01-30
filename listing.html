@@ -8,83 +8,169 @@
     <title>Shop</title>
 </head>
 <body>
-  <div class="flex-container">
-  <nav class="navigation">
-    <a href="index.html" class="uppercase">Nordic Coder</a>
+  <section class="flex-container flex-container-index navigation-top">
+    <a href="index.html"  class="uppercase">Nordic Coder</a>
+    <div>
     <a href="#">New</a>
     <a href="listing.html">Shop</a>
-  </nav>
+    <a href="#">Sale</a>
+    <a href="login.html">Login</a>
+    <a class="cart" href="#">
+        <img src="img/Vector.png" alt="Cart">
+        <p>No item yet</p>
+    </a>
+    </div>
+   </section>
 
     <main>
+      <section class="flex-container">
+        <div>
+          <div>
+          <p>Filter by category</p>
+          <div class="flex-container">
+          <p>Tops</p>
+          <p>Accessories</p>
+          <p>Jeans</p>
+          <p>Jackets</p>
+          <p>Shoes</p>
+          </div>
+          </div>
+
+          <div>
+          <p>Filter by color</p>
+          <div class="flex-container">
+          <button type="button" class="border color" style="background-color: black;"></button>
+          <button type="button" class="border color" style="background-color: #E0E0E0;"></button>
+          <button type="button" class="border color" style="background-color: #EB5757;"></button>
+          <button type="button" class="border color" style="background-color: #F2994A;"></button>
+          <button type="button" class="border color" style="background-color: #F2C94C;"></button>
+          <button type="button" class="border color" style="background-color: #219653;"></button>
+          <button type="button" class="border color" style="background-color: #2F80ED;"></button>
+          <button type="button" class="border color" style="background-color: #9B51E0;"></button>
+          </div>
+        </div>
+      <div>
+      <p>Filter by size</p>
       <div class="flex-container">
     <button type="button">XS</button>
     <button type="button">S</button>
     <button type="button" >M</button>
     <button type="button" class="border">L</button>
       </div>
+      </div>
+      </div>
+    
+    <div>
     <section class="flex-container flex-container-index">
-        <div>
-      <h1>Shop</h1>
-    <p>Showing 1–12 of 24 results</p>
-          </div>
-    <form>
+      <div>
+        <div class="main-product-artical flex-container flex-wrap">
+            <div>
+              <h1>Shop</h1>
+             <p>Showing 1–12 of 24 results</p>
+             </div>
+      <form>
       <select name="sortbylatestt" id="date" class="sort">
         <option>Sort by latest</option> 
         <option value="newtoold">Newest to Oldest</option>
         <option value="oldtonew">Oldest to Newest</option>
       </select>
-    </form>
+      </form>
+      </div>
     <section>
       <div class="main-product-artical flex-container flex-wrap">
-        <artical>
+        <artical class="margin-top">
           <img src="img/sp1.jpg">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
           </artical>
-          <article>
+          <article class="margin-top">
           <img src="img/sp2.jpg">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
-            </article>
-            <article>
+            </article >
+            <article class="margin-top">
           <img src="img/sp3.jpg">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
             </article>
-            <article>
+            </div>
+            <div class="main-product-artical flex-container flex-wrap">
+            <article class="margin-top">
           <img src="img/sp4.png">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
         </article>
-        <article>
+        <article class="margin-top">
           <img src="img/sp5.jpg">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
         </article>
-        <article>
+        <article class="margin-top">
           <img src="img/sp6.jpg">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
         </article>
-        <article>
+        </div>
+        <div class="main-product-artical flex-container flex-wrap">
+        <article class="margin-top">
           <img src="img/sp7.png">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
           </article>
-          <article>
+          <article class="margin-top">
           <img src="img/sp8.png">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
           </article>
-          <article>
+          <article class="margin-top">
           <img src="img/sp9.png">
           <p>€99.00<span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
           </article>
+          </div>
       </div>
     </section>
-    </main>
-      </div>
-
-    <main>
-        <section>
-        </section>
-    </main>
     <button type="button">Add to cart</button><br><br>
     <button type="button">1</button>
     <button type="button">2</button>
-    <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
+  </div>
+    
+  <footer class="footer">
+    <section class="flex-container">
+        <div>
+        <p><span style="color: #828282">About us</span></p>
+        <ul>
+            <li>Our company</li>
+            <li>Our history</li>
+            <li>Jobs</li>
+            <li>Journal</li>
+            <li>Store Locations</li>
+        </ul>
+        </div>
+        <div>
+        <p><span style="color: #828282">How can we help</span></p>
+        <ul>
+            <li>FAQs</li>
+            <li>Order tracking</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Returns & Refunds</li>
+            <li>Support</li>
+        </ul>
+        </div>
+        <div>
+        <p><span style="color: #828282">Shop</span></p>
+        <ul>
+            <li>Tops</li>
+            <li>Accessories</li>
+            <li>Terms & Conditions</li>
+            <li>Jeans</li>
+            <li>Jackets</li>
+            <li>Shoes</li>
+        </ul>
+        </div>
+        <div>
+        <p><span style="color: #828282">Security system</span></p>
+        <ul>
+            <li class="tick"> PCI security standards</li>
+            <li class="tick"> Protect card owner</li>
+            <li class="tick"> Encrypted network</li>
+        </ul>
+        </div>
+        </section>
+        <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
+    </footer>
 
 </body>
 </html>

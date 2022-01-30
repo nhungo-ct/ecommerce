@@ -1,12 +1,23 @@
 
  
+ @font-face {
+    font-family: ecommcerce;
+    src: url(../font/Gilroy-Regular.ttf);
+}
+*{
+    font-family: ecommerce;
+}
+/* import dưới dạng background*/
 .home-banner{
-    background-image: url(../img/product1.jpg);
+    background-image: url(../img/home-banner.jpg);
     background-position: center;
-    background-size: cover;
-    height: 750px;
-    width: auto;
     margin-bottom: 70px;
+}
+.about-banner{
+    background-image: url(../img/bannerabout.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 780px;
 }
 a:hover{
     color: rgb(8, 7, 8);
@@ -15,11 +26,40 @@ a:hover{
 a:active{
     color: peru;
 }
+a{
+    text-decoration: none;
+}
 .cart p{
     display: none;
 }
+.reason p{
+    color:#27AE60;
+    font-weight: bold;
+    font-size: 18px;
+}
+.reason p:last-child{
+    color: #828282;
+    font-size: 16px;
+    font-weight: normal;
+}
+.account::after{
+    content: url(../img/right_vector.png);
+}
+.account a:hover { 
+    border-bottom:1px solid black
+    }
 .cart:hover p{
     display: block;
+}
+.color{
+    width: 12px;
+    height: 12px;
+}
+.submit{
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 30px;
 }
 .privacy{
     background-color: #000000;
@@ -51,6 +91,7 @@ a:active{
 }
 .uppercase{
     text-transform: uppercase;
+    font-weight: bold;
 }
 .letter-spacing{
     letter-spacing: 0.5em;
@@ -59,7 +100,22 @@ a:active{
 body{
     font-size: 100%;
 }
-
+.contact-info{
+    text-align: center;
+}
+.text-about{
+    text-align: center;
+    line-height: 190%;
+}
+.contact p:first-child { 
+    font-size: 24px;
+}
+.tick::before {
+    content: url(../img/greentick.svg);
+}
+.margin-top{
+    margin-top: 20px;
+}
 .thumpnail-active{
     border: 2px solid black;
 }
@@ -75,20 +131,29 @@ body{
     margin: auto;
     width: 1000px;
 }
+.number{
+    background-color: #F2F2F2 ;
+}
 
 .newcustomer{
     width: 800px;
     margin: auto;
-    text-align: center;
-    background-image: url(../img/product9.png);
-    background-image: url(../img/product10.png);
+    background-image: url(../img/newcustomer.jpg);
     background-position: center;
-    background-size: cover;
 }
+.promo{
+    text-align: center;
+    background-color: #E0E0E0;
+}
+
 .navigation{
     width: 800px;
     margin: auto;
     background: rgba(255,255,255,0.8);
+}
+.navigation-top{
+    width: 1000px;
+    margin: auto;
 }
 
 .privacy{
@@ -169,6 +234,7 @@ body{
     height: 250px;
     background-image: url(/img/product8.jpg);
 }
+
 .justify-content-end{
     justify-content: flex-end;
 }
@@ -183,6 +249,10 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.flex-about{
+    width: auto;
+    flex: wrap;
+}
 
 .shopping-exp{
     width: 380px;
@@ -196,3 +266,20 @@ body{
     margin: auto;
     width: 1000px;
 }
+p, ul{
+    line-height: 20px;
+}
+.footer{
+    margin-top: 50px;
+}
+.detail{
+    text-align: center;
+    text-decoration: none;
+}
+.detail a:link {
+    color:#BDBDBD;
+  }
+
+.detail a:active{
+    color: black;
+  }
