@@ -9,78 +9,94 @@
 </head>
 <body>
 
-    <header>
+    <header class="home-banner">
     <nav class="navigation">
-        <img src="img/cover1.png" alt="Cover">
+        <section class="flex-container flex-container-index">
         <a href="index.html"  class="uppercase">Nordic Coder</a>
+        <div>
         <a href="#">New</a>
         <a href="listing.html">Shop</a>
         <a href="#">Sale</a>
         <a href="login.html">Login</a>
-        <a href="#"><img src="img/Vector.png" alt="Cart"></a>
-        <p class="uppercase letter-spacing">reven</p>
+        <a class="cart" href="#">
+            <img src="img/Vector.png" alt="Cart">
+            <p>No item yet</p>
+        </a>
+        </div>
+        </section>   
+        <p class="uppercase letter-spacing  justify-content-end">reven</p>
+
+        <section class="flex-container flex-container-index">
+            <div>
         <img src="img/left_vector.png">
         <img src="img/right_vector.png">
+            </div>
         <a href="listing.html" class="arrow">Shop Now</a>
+        </section>
     </nav>
     </header>
 
     <main>
-        <section>
+        <section class="second-section">
             <div>
-    <img src="img/product1.jpg" alt="This is a product">
-    <p>Find your new look with the fresh fall fashion ideas.</p>
+    <p class="clearfix"><img src="img/product1.jpg" alt="This is a product" class="float-left">Find your new look with the fresh fall fashion ideas.</p>
             </div>
             <div>
-    <p>Amazing designs & collaborations, and as always 100% Organic & Fairtrade certified cotton. Inspired by the georgious Brasilian bucket, a wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which.</p>
-    <img src="img/product2.jpg" alt="This is a product">
+    <p class="clearfix"><img src="img/product2.jpg" alt="This is a product" class="float-right clearfix">
+        Amazing designs & collaborations, and as always 100% Organic & Fairtrade certified cotton. Inspired by the georgious Brasilian bucket, a wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which.</p>
             </div>
         </section>
     <section>
-    <h3>Shop these outfit collections</h3>
+    
+    <section class="third-section">
+    <h3 >Shop these outfit collections</h3>
     <p>100% Organic & Fairtrade certified cotton</p>
-    <img src="img/product3.jpg">
-    <p class="uppercase">Mystery</p>
-    <img src="img/product4.jpg">
-    <p class="uppercase">Darling</p>
-    <img src="img/product5.jpg">
-    <p class="uppercase">Beyond</p>
-    <img src="img/product6.jpg">
-    <p class="uppercase">Reven</p>
-    <img src="img/product7.jpg">
-    <p class="uppercase">Le Feminin</p>
-    <img src="img/product8.jpg">
-    <p class="uppercase">Naturalism</p>
+    </section>
+
+    <div class="flex-container">
+    <p class="flex-container-text justify-content-end mystery">Mystery</p>
+    <p class="darling">Darling</p>
+    <p class="flex-container-text justify-content-start beyond">Beyond</p>
+    <p class="flex-container-text reven justify-content-end">Reven</p>
+    <p class="flex-container-text lefeminin justify-content-end">Le Feminin</p>
+    <p class="flex-container-text justify-content-end naturalism">Naturalism</p>
+    </div>
+    <section class="index-note flex-container-index">
+    <div>
     <p>Women’s Clothing and Accessories</p>
     <p>Searching for cute clothes? Shop Nordic Coder women’s clothes, accessories and women’s shoes right here. Updated daily with new arrivals of exclusive styles, favorite brands and trends.</p>
+    </div>
+        <div>
     <p>Shop For The Latest Clothes Online And Shoes Online.</p>
     <p>Nordic Coder delivers a stylish and current collection womens apparel, sourced from the most coveted Australian and international brands. With everything from dresses to jeans, ankle boots to sneakers, watches to wallets, our selection of over 20,000 products has something for every style.</p>
+        </div>
     </section>
-    <img src="img/product9.png">
-        <img src="img/product10.png">
+
     <section>
         <div class="newcustomer">
     <h1>New customer?</h1>
     <p>Receive instantly voucher valued at</p>
     <p style="font-size: 2.25em;font-weight: bold;">50&euro;</p>
     <p>and other attractive deals and latest trends</p>
+        </div>
 
     <form>
         <label for="fmail">Email address</label><br>
         <input input type="text" id="fmail" name="fmail"><br>
         <input type="submit" value="Register">
     </form>
-    </div>
     </section>
 
     <section>
     <h3>Follow us on instagram</h3>
     <a href="https://www.instagram.com/" class="nordiccoder">@nordiccoder</a>
+    <div class="container-justify">
     <img src="img/instagram1.jpg">
     <img src="img/instagram2.jpg">
     <img src="img/instagram3.jpg">
     <img src="img/instagram4.jpg">
     <img src="img/instagram5.jpg">
+    </div>
     </section>
 
 
@@ -123,11 +139,13 @@
     <footer>
         <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
     </div>
+
     <div class="privacy">
         <p>This is a standard cookie notice which you can easily adapt or disable as you like in the admin. We use cookies to ensure that we give you the best experience on our website.</p>
         <a href="#">Privacy policy</a>
         <button type="button">Accept <img src="img/tick.png"></button>
     </div>
+
     </footer>
     
 </body>

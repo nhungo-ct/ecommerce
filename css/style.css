@@ -1,5 +1,26 @@
 
+ 
+.home-banner{
+    background-image: url(../img/product1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+    margin-bottom: 70px;
+}
+a:hover{
+    color: rgb(8, 7, 8);
+}
 
+a:active{
+    color: peru;
+}
+.cart p{
+    display: none;
+}
+.cart:hover p{
+    display: block;
+}
 .privacy{
     background-color: #000000;
     opacity: 80%;
@@ -50,7 +71,7 @@ body{
 .border{
     border-radius: 50%;
 }
-.visionmission{
+.container{
     margin: auto;
     width: 1000px;
 }
@@ -59,4 +80,119 @@ body{
     width: 800px;
     margin: auto;
     text-align: center;
+    background-image: url(../img/product9.png);
+    background-image: url(../img/product10.png);
+    background-position: center;
+    background-size: cover;
+}
+.navigation{
+    width: 800px;
+    margin: auto;
+    background: rgba(255,255,255,0.8);
+}
+
+.privacy{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.second-section{
+    margin: 70px;
+}
+.third-section{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+.thumpnail{
+    opacity: 0.5;
+    width: 80px
+}
+
+.thumpnail-active{
+    border: 2px solid #000000;
+    width: 80px;
+}
+.main-product-article{
+    width: 220px;
+}
+
+.container-justify{
+    justify-content: center;
+}
+.mystery{
+    width: 510px;
+    height: 250px;   
+    background-image: url(/img/product3.jpg);
+}
+.darling{
+    width: 180px;
+    height: 250px;
+    background-image: url(/img/product4.jpg);
+}
+.beyond{
+    width: 270px;
+    height: 250px;  
+    background-image: url(/img/product5.jpg);
+}
+.reven{
+    width: 180px;
+    height: 250px;
+    background-image: url(/img/product6.jpg);
+}
+.lefeminin{
+    width: 270px;
+    height: 250px;
+    background-image: url(/img/product7.jpg);
+}
+.naturalism{
+    width: 510px;
+    height: 250px;
+    background-image: url(/img/product8.jpg);
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.flex-container-text{
+    display: flex;
+}
+
+.flex-container-about{
+    display: flex;
+    justify-content: space-around;
+}
+
+.shopping-exp{
+    width: 380px;
+}
+.flex-container-index{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-index{
+    margin: auto;
+    width: 1000px;
 }
