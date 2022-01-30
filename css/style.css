@@ -136,14 +136,21 @@ body{
 }
 
 .newcustomer{
-    width: 800px;
-    margin: auto;
     background-image: url(../img/newcustomer.jpg);
     background-position: center;
+    width: 1440px;
+    height: 610px;
 }
 .promo{
+    background: #FFFFFF;
+    opacity: 0.8;
+    background-position: center;
+    width: 800px;
+    height: 450px;
+    margin: 80px 320px;
+}
+.promo p{
     text-align: center;
-    background-color: #E0E0E0;
 }
 
 .navigation{
