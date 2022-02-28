@@ -22,9 +22,11 @@
     </style>
 </head>
 <body>
-    <section class="flex-container flex-container-index navigation-top">
+    <main>
+   
+    <div class="flex-container flex-container-index navigation-top">
         <a href="index.html"  class="uppercase">Nordic Coder</a>
-        <div>
+            <div>
         <a href="#">New</a>
         <a href="listing.html">Shop</a>
         <a href="#">Sale</a>
@@ -34,21 +36,24 @@
             <p>No item yet</p>
         </a>
         </div>
-       </section>
-    
-    <main>
-        <section class="flex-container"> 
-    <div class="flex-container flex-direction-column">
+       </div>
+
+       <section class="flex-container align-item-start container">  
+ <!--cột 1-->
+    <div class="flex-container flex-direction-column align-item-start m-10">
       <img src="img/product1.png" alt="Thumpnail" class="thumpnail">
       <img src="img/product2.png" alt="Thumpnail" class="thumpnail">
       <img src="img/product3.png" alt="Thumpnail" class="thumpnail">
       <img src="img/Rectangle27.jpg" alt="Thumpnail active" class="thumpnail-active">
     </div>
-    <img src="img/Rectangle27.jpg" width="400px" height="600px">
-
-    <div>
+        <!--cột 2-->
+    <div class="m-35">
+    <img src="img/Rectangle27.jpg"  width="400px" height="600px" >
+    </div>
+      <!--cột 3-->
+    <div class="flex-container flex-wrap align-content-between w-40">
     <section>
-        <div class="tab"> 
+        <div class="tab w-100"> 
             <a href="index.html">Home</a>
             <a href="listing.html">Jackets</a>
             <a href="#">Julia</a>
@@ -89,7 +94,8 @@
         <p>SKU: 86423-AB</p>
         <p>Category: <span style=color:red">Jacket</span></p>
                         <div class="flex-container">
-        <p>Share</p>
+        <div class="flex-container align-item-bottom">
+                            <p>Share</p>
         <a href="https://www.facebook.com/" target=blank><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.twitter.com/" target=blank><i class="fab fa-twitter"></i></a>
         <a href="https://www.google.com/" target=blank><i class="fab fa-google-plus-g"></i></a>
@@ -97,14 +103,13 @@
                         </div>
                       </div>
     </section>
-
+    </section>
     <section>
         <a href="#">Description</a>
         <a href="#">Additional information</a>
         <a href="#">Reviews (1)</a>
     </section>
     </div>
-    </section>
     </section>
     <section>
         <div>
@@ -129,35 +134,34 @@
     </section>
     
         <h3>Related Products</h3>
-        <section class="flex-container">
-            <div>
-                <img src="img/related1.png">
+        <div class="flex-container flex-wrap related-product overflow">
+            <article>
+                <img src="img/related1.png" class= "hover-scale">
+                <button type="button" class="pos-abs add-to-cart">Add to cart</button><br><br>
                 <p>Elly</p>
                 <p>€99.00 <span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
-            </div>
+            </article>
 
-            <div>
-                <img src="img/related2.png">
+            <article>
+                <img src="img/related2.png" class= "hover-scale">
                 <p>Julia</p>
                 <p>€99.00 <span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
-            </div>
+            </article>
 
-            <div>
-                <img src="img/related3.png">
+            <article>
+                <img src="img/related3.png" class= "hover-scale">
                 <p>Julia</p>
                 <p>€99.00 <span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
-            </div>
+            </article>
 
-            <div>
-                <img src="img/related4.png">
+            <article>
+                <img src="img/related4.png" class= "hover-scale">
                 <p>Julia</p>
                 <p>€99.00 <span style="color: #828282; text-decoration: line-through;">€119.00</span></p>
-            </div>
-
-         </section>
-
-
-
+            </article>
+        </div>
+        
+        </main>
     <footer class="footer">
         <section class="flex-container">
             <div>
@@ -201,6 +205,7 @@
             </ul>
             </div>
             </section>
+            
             <p><span style="color: #828282">Copyright &copy; 2020 Nordic Coder. All rights reserved.</span></p>
         </footer>
 </main>

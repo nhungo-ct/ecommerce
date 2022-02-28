@@ -19,6 +19,9 @@
     width: auto;
     height: 780px;
 }
+.reven-top{
+
+}
 a:hover{
     color: rgb(8, 7, 8);
 }
@@ -65,6 +68,10 @@ a{
     background-color: #000000;
     opacity: 80%;
     color: white;
+    position:fixed;
+    bottom: 50px;
+    left: 50px;
+    width: 390px;
 }
 .footer{
     background-color: #F2F2F2;
@@ -197,7 +204,8 @@ body{
 }
 .thumpnail{
     opacity: 0.5;
-    width: 80px
+    width: 80px;
+    height: 80px;
 }
 
 .thumpnail-active{
@@ -212,34 +220,35 @@ body{
     justify-content: center;
 }
 .mystery{
-    width: 510px;
+   
     height: 250px;   
     background-image: url(/img/product3.jpg);
+    color: #FFFFFF;
 }
 .darling{
-    width: 180px;
+ 
     height: 250px;
     background-image: url(/img/product4.jpg);
+    color: white;
 }
 .beyond{
-    width: 270px;
     height: 250px;  
     background-image: url(/img/product5.jpg);
 }
 .reven{
-    width: 180px;
     height: 250px;
-    background-image: url(/img/product6.jpg);
+    background-image: url(/img/product6.jpg);;
 }
 .lefeminin{
-    width: 270px;
+  
     height: 250px;
     background-image: url(/img/product7.jpg);
 }
 .naturalism{
-    width: 510px;
+    
     height: 250px;
     background-image: url(/img/product8.jpg);
+    color: #FFFFFF;
 }
 
 .justify-content-end{
@@ -248,8 +257,12 @@ body{
 .justify-content-start{
     justify-content: flex-start;
 }
+.justify-content-between{
+    justify-content: space-between;
+}
 .flex-container-text{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-container-about{
@@ -290,3 +303,166 @@ p, ul{
 .detail a:active{
     color: black;
   }
+  .align-text-center{
+      align-items: center;
+  }
+
+  .align-text-bottom{
+      align-items: flex-end;
+  }
+
+.align-item-start{
+      align-items: flex-start;
+  }
+
+.align-item-end{
+    align-items: flex-end;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-40{
+    width:40%;
+}
+.align-content-between{
+    align-content: space-between;
+}
+
+.m-10{
+    margin: 10px;
+}
+.m-20{
+    margin: 20px;
+}
+.flex-50{
+    flex-basis: 50%;
+}
+
+.flex-25{
+    flex-basis: 25%;
+}
+
+.m-35{
+    margin-left: 35px;
+}
+.position-fix{
+    position: fixed;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.pos-abs{
+    position: absolute;
+}
+.add-to-cart{
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+.add-to-cart{
+    display: none;
+}
+.add-to-cart:hover{
+    display: block;
+    animation-name: add-to-cart;
+    animation-duration: 0.5;
+
+    @keyframes add-to-cart {
+        from {bottom: 0px;}
+        to {bottom: 20px;}
+    }
+}
+.home-banner li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.top-nav > ul{
+    display: flex;
+}
+li ul{
+    background-color: white;
+    display: none;
+    position: absolute;
+}
+
+li:hover > ul {
+    display: block;
+}
+.top-nav li{
+    position: relative;
+}
+.sub-menu{
+    left: 100%;
+    top: 0;
+}
+.hover-scale:hover{
+    transform: scale(1.1);
+    transition: 0.5s ;
+}
+.overflow{
+    overflow: hidden;
+}
+
+.related-product{
+    width: 100%;
+    padding: 10px;
+}
+.sidebar{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+    
+    @media screen and (min-width: 600px) {
+        .related-product article{
+            width: 50%;
+        } 
+
+        .sidebar{
+            display: block;
+        }
+    }
+    @media screen and (min-width: 992px) {
+        .related-product article{
+            width: 25%;
+        }
+    }
+/* desktop */
+    .mission-vision{
+        width: 25%;
+        padding: 10px;
+    }
+/* tablet */
+        @media screen and (min-width: 600px) {
+            .mission-vision div{
+                width: 50%;
+            }
+            .sidebar {
+                display: none;
+            }
+            } 
+        
+/* mobile */
+        @media screen and (max-width: 600px) {
+            .mission-vision div{
+                width: 100%;
+            }
+        }
+#collapsibleNavbar > ul{
+    display: flex;
+}
+#collapsibleNavbar.navbar-collapse{
+    flex-grow: 0;
+}
+        
